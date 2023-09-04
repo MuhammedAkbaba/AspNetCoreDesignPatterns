@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\BaseProject
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Projeler/.Net Core/AspNetCoreDesignPatterns/UdemyAspNetCoreDesignPatterns/BaseProject/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Projeler/.Net Core/AspNetCoreDesignPatterns/UdemyAspNetCoreDesignPatterns/BaseProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
