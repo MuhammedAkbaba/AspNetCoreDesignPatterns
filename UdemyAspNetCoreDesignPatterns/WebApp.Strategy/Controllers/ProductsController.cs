@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using BaseProject.Models;
 using WebApp.Strategy.Models;
 using WebApp.Strategy.Repositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authorization;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Query.ExpressionTranslators.Internal;
 
 namespace WebApp.Strategy.Controllers
 {
@@ -65,15 +65,15 @@ namespace WebApp.Strategy.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Price,Stock,UserId,CreateDate")] Product product)
+        public async Task<IActionResult> Create(Product product)
         {
-            if (ModelState.IsValid)
+            // if (ModelState.IsValid)
             {
                 var hasUser = await _userManager.FindByNameAsync(User.Identity.Name);
 
                 product.UserId = hasUser.Id;
                 product.CreateDate = DateTime.Now;
-
+              
                 await _productRepository.Save(product);
                 return RedirectToAction(nameof(Index));
             }
@@ -101,19 +101,20 @@ namespace WebApp.Strategy.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,Name,Price,Stock,UserId,CreateDate")] Product product)
+        public async Task<IActionResult> Edit(string id, [Bind("Name,Price,Stock")] Product product)
         {
-            if (id != product.Id)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            //if (ModelState.IsValid)
             {
                 try
                 {
                     var hasUser = await _userManager.FindByNameAsync(User.Identity.Name);
                     product.UserId = hasUser.Id;
+                    product.Id = id;
 
                     await _productRepository.Update(product);
                 }

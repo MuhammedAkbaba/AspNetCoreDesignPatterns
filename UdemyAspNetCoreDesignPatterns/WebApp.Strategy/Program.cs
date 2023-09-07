@@ -1,4 +1,3 @@
-using BaseProject.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -6,11 +5,20 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
+using System.Configuration;
+using WebApp.Strategy.Models;
+using WebApp.Strategy.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+///Identity 
+builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
+{
+    options.User.RequireUniqueEmail = true;
+}).AddEntityFrameworkStores<AppIdentityDbContext>();
 
 builder.Services.AddDbContext<AppIdentityDbContext>(options =>
 {
@@ -18,14 +26,40 @@ builder.Services.AddDbContext<AppIdentityDbContext>(options =>
 });
 
 
-builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
+builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddScoped<IProductRepository>(sp =>
 {
-    options.User.RequireUniqueEmail = true;
-}).AddEntityFrameworkStores<AppIdentityDbContext>();
+    var httpContextAccessor = sp.GetRequiredService<IHttpContextAccessor>()?.HttpContext;
+
+    ///cookie üzerinde claim deki deðeri okuma
+    var claim = httpContextAccessor.User.Claims.FirstOrDefault(x => x.Type == Settings.claimDatabaseType);
+
+    var _context = sp.GetRequiredService<AppIdentityDbContext>();
+
+    var configuration = sp.GetRequiredService<IConfiguration>();
+
+    if (claim == null) return new ProductRepositoryFromPostGreSql(_context);
+
+    var databaseType = (EDatabaseType)int.Parse(claim.Value);
+
+    return databaseType switch
+    {
+        EDatabaseType.PostGreSql => new ProductRepositoryFromPostGreSql(_context),
+        EDatabaseType.MongoDb => new ProductRepositoryFromMongoDb(configuration),
+        _ => new ProductRepositoryFromPostGreSql(_context),
+    };
+
+});
+
+
 
 
 
 var app = builder.Build();
+
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

@@ -1,5 +1,4 @@
-﻿using BaseProject.Models;
-using Microsoft.AspNetCore.Authentication;
+﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -68,6 +67,7 @@ namespace WebApp.Strategy.Controllers
             
             await _signInManager.SignOutAsync();
             ///cookie de bazı var olan değerler vardır bunları da almak için aşağıdaki gibi kod yazmamız gerek
+            ///bu var olan değerler ve yeni değerleride ekleyerek yeniden cookie oluşturmak için
             ///örnek beni hatırla seçili ise ve diğer benzeri bilgiler
             var authenticateResult = await HttpContext.AuthenticateAsync();
 

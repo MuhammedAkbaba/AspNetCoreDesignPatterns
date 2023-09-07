@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using System.Linq;
 
-namespace WebApp.Strategy.Models
+namespace BaseProject.Models
 {
     public static class DataSeeding
     {
