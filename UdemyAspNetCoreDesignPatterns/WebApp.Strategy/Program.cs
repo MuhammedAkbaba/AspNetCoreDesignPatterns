@@ -22,7 +22,9 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
 
 builder.Services.AddDbContext<AppIdentityDbContext>(options =>
 {
-    options.UseNpgsql(builder.Configuration.GetConnectionString("SqlCon"));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("SqlPostGreSqlCon"));
+    //options.UseSqlServer(builder.Configuration.GetConnectionString("SqlDbCon"));
+
 });
 
 
@@ -45,6 +47,7 @@ builder.Services.AddScoped<IProductRepository>(sp =>
 
     return databaseType switch
     {
+        EDatabaseType.SqlServer => new ProductRepositoryFromSqlServer(_context),
         EDatabaseType.PostGreSql => new ProductRepositoryFromPostGreSql(_context),
         EDatabaseType.MongoDb => new ProductRepositoryFromMongoDb(configuration),
         _ => new ProductRepositoryFromPostGreSql(_context),
@@ -53,13 +56,7 @@ builder.Services.AddScoped<IProductRepository>(sp =>
 });
 
 
-
-
-
 var app = builder.Build();
-
-
-
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
