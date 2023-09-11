@@ -1,27 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NET_CORE\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\BaseProject\\BaseProject.csproj": {}
+    "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\BaseProject\\BaseProject.csproj": {}
   },
   "projects": {
-    "D:\\NET_CORE\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\BaseProject\\BaseProject.csproj": {
+    "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\BaseProject\\BaseProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NET_CORE\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\BaseProject\\BaseProject.csproj",
+        "projectUniqueName": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\BaseProject\\BaseProject.csproj",
         "projectName": "BaseProject",
-        "projectPath": "D:\\NET_CORE\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\BaseProject\\BaseProject.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\NET_CORE\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\BaseProject\\obj\\",
+        "projectPath": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\BaseProject\\BaseProject.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\BaseProject\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -82,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
