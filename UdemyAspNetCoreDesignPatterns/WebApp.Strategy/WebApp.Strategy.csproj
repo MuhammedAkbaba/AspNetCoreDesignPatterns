@@ -9,12 +9,16 @@
   <ItemGroup>
     <Compile Remove="bin\**" />
     <Compile Remove="obj\**" />
+    <Compile Remove="Views\**" />
     <Content Remove="bin\**" />
     <Content Remove="obj\**" />
+    <Content Remove="Views\**" />
     <EmbeddedResource Remove="bin\**" />
     <EmbeddedResource Remove="obj\**" />
+    <EmbeddedResource Remove="Views\**" />
     <None Remove="bin\**" />
     <None Remove="obj\**" />
+    <None Remove="Views\**" />
   </ItemGroup>
 
   <ItemGroup>
