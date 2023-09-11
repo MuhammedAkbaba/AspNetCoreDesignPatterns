@@ -278,8 +278,6 @@ C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\Web
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\obj\Debug\net7.0\WebApp.Strategy.AssemblyInfo.cs
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\obj\Debug\net7.0\WebApp.Strategy.csproj.CoreCompileInputs.cache
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\obj\Debug\net7.0\WebApp.Strategy.MvcApplicationPartsAssemblyInfo.cache
-C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\obj\Debug\net7.0\WebApp.Strategy.RazorAssemblyInfo.cache
-C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\obj\Debug\net7.0\WebApp.Strategy.RazorAssemblyInfo.cs
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\bin\Debug\net7.0\appsettings.Development.json
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\bin\Debug\net7.0\appsettings.json
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\bin\Debug\net7.0\WebApp.Strategy.staticwebassets.runtime.json
@@ -537,9 +535,7 @@ C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\Web
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\obj\Debug\net7.0\staticwebassets.build.json
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\obj\Debug\net7.0\staticwebassets.development.json
-C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\obj\Debug\net7.0\scopedcss\bundle\WebApp.Strategy.styles.css
-C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\obj\Debug\net7.0\scopedcss\projectbundle\WebApp.Strategy.bundle.scp.css
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\obj\Debug\net7.0\WebApp.Strategy.csproj.CopyComplete
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\obj\Debug\net7.0\WebApp.Strategy.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Strategy\obj\Debug\net7.0\refint\WebApp.Strategy.dll
