@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3Q5z5QVdhK+EZ6v4VhH6sbE/hRaotzotjnd9+5MqJxY=",
+  "Hash": "j79+k8CefFMSBScM2xLf1wAwpns5OrB/g/5skcO3dWk=",
   "Source": "WebApp.Template",
   "BasePath": "_content/WebApp.Template",
   "Mode": "Default",
@@ -1069,6 +1069,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\WebApp.Template\\wwwroot\\userpictures\\defaultUser.png",
+      "SourceId": "WebApp.Template",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\WebApp.Template\\wwwroot\\",
+      "BasePath": "_content/WebApp.Template",
+      "RelativePath": "userpictures/defaultUser.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userpictures\\defaultUser.png"
+    },
+    {
+      "Identity": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\WebApp.Template\\wwwroot\\userpictures\\user.png",
+      "SourceId": "WebApp.Template",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\WebApp.Template\\wwwroot\\",
+      "BasePath": "_content/WebApp.Template",
+      "RelativePath": "userpictures/user.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userpictures\\user.png"
     }
   ]
 }

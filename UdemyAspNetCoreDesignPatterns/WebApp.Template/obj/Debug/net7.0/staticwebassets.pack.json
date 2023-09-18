@@ -245,6 +245,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\WebApp.Template\\wwwroot\\userpictures\\defaultUser.png",
+      "PackagePath": "staticwebassets\\userpictures\\defaultUser.png"
+    },
+    {
+      "Id": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\WebApp.Template\\wwwroot\\userpictures\\user.png",
+      "PackagePath": "staticwebassets\\userpictures\\user.png"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebApp.Template.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
