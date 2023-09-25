@@ -10605,11 +10605,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\BaseProject\\BaseProject.csproj",
-      "projectName": "BaseProject",
-      "projectPath": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\BaseProject\\BaseProject.csproj",
+      "projectUniqueName": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\WebAp.Command\\WebAp.Command.csproj",
+      "projectName": "WebAp.Command",
+      "projectPath": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\WebAp.Command\\WebAp.Command.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\BaseProject\\obj\\",
+      "outputPath": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\WebAp.Command\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
