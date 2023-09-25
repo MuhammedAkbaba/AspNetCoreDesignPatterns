@@ -6,3 +6,4 @@
 <<<<<<< HEAD
 *.cs
 *.vsidx
+/UdemyAspNetCoreDesignPatterns/WebApp.Template/wwwroot/userpictures/user.png

@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\WebApp.Strategy\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebApp.Strategy.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebApp.Strategy.bundle.scp.css"
+    },
+    {
       "Id": "C:\\Projeler\\.Net Core\\AspNetCoreDesignPatterns\\UdemyAspNetCoreDesignPatterns\\WebApp.Strategy\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
