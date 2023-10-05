@@ -1,4 +1,5 @@
 ﻿using BaseProject.Models;
+using DocumentFormat.OpenXml.Wordprocessing;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -19,8 +20,6 @@ namespace BaseProject.Controllers
 
         public IActionResult Login()
         {
-
-            
             return View();
         }
 
