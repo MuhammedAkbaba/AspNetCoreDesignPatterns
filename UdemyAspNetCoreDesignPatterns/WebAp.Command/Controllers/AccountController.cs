@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using WebAp.Command.Commands;
 
 namespace BaseProject.Controllers
 {
@@ -18,6 +19,8 @@ namespace BaseProject.Controllers
 
         public IActionResult Login()
         {
+
+            
             return View();
         }
 
