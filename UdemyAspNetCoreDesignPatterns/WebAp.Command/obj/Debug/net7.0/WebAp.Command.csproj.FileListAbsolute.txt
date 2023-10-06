@@ -236,3 +236,11 @@ C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\Web
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebAp.Command\obj\Debug\net7.0\WebAp.Command.pdb
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebAp.Command\obj\Debug\net7.0\WebAp.Command.genruntimeconfig.cache
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebAp.Command\obj\Debug\net7.0\ref\WebAp.Command.dll
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebAp.Command\bin\Debug\net7.0\ClosedXML.dll
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebAp.Command\bin\Debug\net7.0\DinkToPdf.dll
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebAp.Command\bin\Debug\net7.0\DocumentFormat.OpenXml.dll
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebAp.Command\bin\Debug\net7.0\ExcelNumberFormat.dll
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebAp.Command\bin\Debug\net7.0\Irony.dll
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebAp.Command\bin\Debug\net7.0\SixLabors.Fonts.dll
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebAp.Command\bin\Debug\net7.0\System.IO.Packaging.dll
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebAp.Command\bin\Debug\net7.0\XLParser.dll
