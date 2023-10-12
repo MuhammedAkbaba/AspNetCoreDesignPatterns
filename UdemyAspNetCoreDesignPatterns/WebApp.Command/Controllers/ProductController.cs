@@ -49,6 +49,10 @@ namespace WebApp.Command.Controllers
                     //fileCreateInvoker.SetCommand(new CreatePdfTableActionCommand<Product>(new PdfFile<Product>(HttpContext, _productList)));
 
                     break;
+                case EFileType.Json:
+                    JsonFile<Product> jsonFile = new(_productList);
+                    fileCreateInvoker.SetCommand(new CreateJsonTableActionCommand<Product>(jsonFile));
+                    break;
             }
 
             return fileCreateInvoker.CreateFile();
