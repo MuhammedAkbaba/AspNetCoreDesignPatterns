@@ -83,6 +83,7 @@ namespace WebAp.Command.Commands
 
             var converter = _httpContext.RequestServices.GetRequiredService<IConverter>();
 
+            ///kendi orjinal kodunu kullanmak istersek
             //var _converter = new SynchronizedConverter(new PdfTools());
             //MemoryStream pdfMS = new(_converter.Convert(doc));
 

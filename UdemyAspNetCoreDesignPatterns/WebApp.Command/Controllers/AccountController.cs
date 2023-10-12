@@ -1,12 +1,11 @@
-﻿using BaseProject.Models;
-using DocumentFormat.OpenXml.Wordprocessing;
+﻿using DocumentFormat.OpenXml.Wordprocessing;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using WebAp.Command.Commands;
-using WebAp.Command.Models;
+using WebApp.Command.Models;
 
-namespace BaseProject.Controllers
+namespace WebApp.Command.Controllers
 {
     public class AccountController : Controller
     {

@@ -1,4 +1,3 @@
-using BaseProject.Models;
 using DinkToPdf.Contracts;
 using DinkToPdf;
 using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
@@ -9,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;
+using WebApp.Command.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

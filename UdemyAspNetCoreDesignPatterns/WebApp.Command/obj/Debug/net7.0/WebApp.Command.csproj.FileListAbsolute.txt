@@ -1,3 +1,15 @@
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.csproj.AssemblyReference.cache
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.AssemblyInfoInputs.cache
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.AssemblyInfo.cs
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.csproj.CoreCompileInputs.cache
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.MvcApplicationPartsAssemblyInfo.cache
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.RazorAssemblyInfo.cache
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.RazorAssemblyInfo.cs
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\appsettings.Development.json
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\appsettings.json
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\WebApp.Command.staticwebassets.runtime.json
@@ -15,11 +27,9 @@ C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\Web
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.Build.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.Build.Framework.dll
-C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
@@ -29,7 +39,6 @@ C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\Web
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -51,7 +60,6 @@ C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\Web
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Npgsql.dll
-C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\NuGet.Common.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\NuGet.Configuration.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
@@ -220,14 +228,6 @@ C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\Web
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.csproj.AssemblyReference.cache
-C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.GeneratedMSBuildEditorConfig.editorconfig
-C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.AssemblyInfoInputs.cache
-C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.AssemblyInfo.cs
-C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.csproj.CoreCompileInputs.cache
-C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.MvcApplicationPartsAssemblyInfo.cache
-C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.RazorAssemblyInfo.cache
-C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.RazorAssemblyInfo.cs
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\staticwebassets\msbuild.WebApp.Command.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApp.Command.props
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApp.Command.props
@@ -244,3 +244,4 @@ C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\Web
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.pdb
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\WebApp.Command.genruntimeconfig.cache
 C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\obj\Debug\net7.0\ref\WebApp.Command.dll
+C:\Projeler\.Net Core\AspNetCoreDesignPatterns\UdemyAspNetCoreDesignPatterns\WebApp.Command\bin\Debug\net7.0\libwkhtmltox.dll

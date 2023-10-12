@@ -1,6 +1,7 @@
 ﻿using ClosedXML.Excel;
 using System.Data;
 using System.Reflection;
+using WebApp.Command.Commands;
 
 namespace WebAp.Command.Commands
 {
@@ -8,8 +9,9 @@ namespace WebAp.Command.Commands
     /// UML deki Receiver
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public class ExcelFile<T>
+    public class ExcelFile<T> 
     {
+        
         public readonly List<T> _list;
 
 

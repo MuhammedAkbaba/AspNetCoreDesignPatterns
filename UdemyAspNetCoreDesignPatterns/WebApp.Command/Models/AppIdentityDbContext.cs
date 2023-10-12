@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 
-namespace BaseProject.Models
+namespace WebApp.Command.Models
 {
     public class AppIdentityDbContext:IdentityDbContext<AppUser>
     {
@@ -11,5 +11,6 @@ namespace BaseProject.Models
             AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
             AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);  
         }
+        public DbSet<Product> Products { get; set; }
     }
 }

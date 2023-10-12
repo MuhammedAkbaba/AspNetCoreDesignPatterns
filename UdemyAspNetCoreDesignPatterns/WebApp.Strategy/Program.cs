@@ -41,6 +41,7 @@ builder.Services.AddScoped<IProductRepository>(sp =>
 
     var configuration = sp.GetRequiredService<IConfiguration>();
 
+    ///claim  null ise default olarak verme
     if (claim == null) return new ProductRepositoryFromPostGreSql(_context);
 
     var databaseType = (EDatabaseType)int.Parse(claim.Value);
