@@ -41,53 +41,51 @@ namespace WebAp.Command.Commands
                                 <div><h1>{type.Name}</h1></div>
                                   <table class='table table-striped' aling='center'>");
 
-                                    sb.Append("<tr>");
-                                    type.GetProperties().ToList().ForEach(x =>
-                                    {
-                                        sb.Append($"<th>{x.Name}</th>");
-                                    });
-                                    sb.Append("</tr>");
+            sb.Append("<tr>");
+            type.GetProperties().ToList().ForEach(x =>
+            {
+                sb.Append($"<th>{x.Name}</th>");
+            });
+            sb.Append("</tr>");
 
-                                    _list.ForEach(x =>
-                                    {
-                                        var values = type.GetProperties().ToList().Select(propinfo => propinfo.GetValue(x, null)).ToList();
-                                     
-                                        sb.Append("<tr>");
-                                        values.ForEach(x =>
-                                        {
-                                            sb.Append($"<td>{x}</td>");
-                                        });
+            _list.ForEach(x =>
+            {
+                var values = type.GetProperties().ToList().Select(propinfo => propinfo.GetValue(x, null)).ToList();
 
-                                        sb.Append("</tr>");
-                                    });
+                sb.Append("<tr>");
+                values.ForEach(x =>
+                {
+                    sb.Append($"<td>{x}</td>");
+                });
+
+                sb.Append("</tr>");
+            });
             sb.Append("</table></body></html>");
 
 
+            ///DinkToPdf kütüphanesine ait bir komut satırı 
+            ///bazı prop değeri biz verebiliyoruz.
             var doc = new HtmlToPdfDocument()
             {
                 GlobalSettings = {
                 ColorMode = DinkToPdf.ColorMode.Color,
-                Orientation = DinkToPdf.Orientation.Portrait,///dikey
-                PaperSize = DinkToPdf.PaperKind.A4,
+                Orientation = DinkToPdf.Orientation.Portrait,///sayfanın dikey olması için
+                PaperSize = DinkToPdf.PaperKind.A4,///A4 sayfası olması için
             },
                 Objects = {
                     new ObjectSettings() {
                         PagesCount = true,
-                        HtmlContent =sb.ToString(),
+                        HtmlContent =sb.ToString(),///Yukarda oluşturduğumuz html data
                         WebSettings = { DefaultEncoding = "utf-8",UserStyleSheet=Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/lib/bootstrap/dist/css/bootstrap.css") },
-                        HeaderSettings = { FontSize = 9, Right = "Page [page] of [toPage]", Line = true, Spacing = 2.812 }
+                        HeaderSettings = { FontSize = 9, Right = "Sayfa [page] arası [toPage]", Line = true, Spacing = 2.812 }
                     }
                 }
             };
 
 
-            var converter = _httpContext.RequestServices.GetRequiredService<IConverter>();
+            var _converter = _httpContext.RequestServices.GetRequiredService<IConverter>();
 
-            ///kendi orjinal kodunu kullanmak istersek
-            //var _converter = new SynchronizedConverter(new PdfTools());
-            //MemoryStream pdfMS = new(_converter.Convert(doc));
-
-            MemoryStream pdfMemory = new(converter.Convert(doc));
+            MemoryStream pdfMemory = new(_converter.Convert(doc));
 
             return pdfMemory;
 

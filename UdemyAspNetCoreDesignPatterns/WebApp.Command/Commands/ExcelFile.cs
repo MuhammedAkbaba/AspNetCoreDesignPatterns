@@ -9,7 +9,7 @@ namespace WebAp.Command.Commands
     /// UML deki Receiver
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public class ExcelFile<T> 
+    public class ExcelFile<T>
     {
         
         public readonly List<T> _list;

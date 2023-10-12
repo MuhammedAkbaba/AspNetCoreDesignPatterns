@@ -17,6 +17,14 @@ namespace WebAp.Command.Commands
             _tableActionCommand = tableActionCommand;
         }
 
+        public IActionResult CreateFile()
+        {
+            ///Loglama yapabilirsin
+
+            return _tableActionCommand.Execute();
+        }
+
+
         /// <summary>
         /// Birden fazla dosya oluşturmak istendiğinde
         /// Örnek : Excel, Pdf, Json ...
@@ -27,12 +35,6 @@ namespace WebAp.Command.Commands
             _tableActionCommands.Add(tableActionCommand);
         }
 
-        public IActionResult CreateFile()
-        {
-            ///Loglama yapabilirsin
-            
-            return _tableActionCommand.Execute();
-        }
 
         /// <summary>
         /// Birden fazla dosya create etmek için 
